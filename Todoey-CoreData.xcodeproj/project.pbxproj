@@ -14,6 +14,7 @@
 		B39BCC772969F19700CDE4E5 /* Todoey_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B39BCC752969F19700CDE4E5 /* Todoey_CoreData.xcdatamodeld */; };
 		B39BCC792969F19800CDE4E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39BCC782969F19800CDE4E5 /* Assets.xcassets */; };
 		B39BCC7C2969F19800CDE4E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39BCC7A2969F19800CDE4E5 /* LaunchScreen.storyboard */; };
+		B3C97CCE296B9E9800D58657 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C97CCD296B9E9800D58657 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B39BCC782969F19800CDE4E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B39BCC7B2969F19800CDE4E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B39BCC7D2969F19800CDE4E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C97CCD296B9E9800D58657 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		B39BCC832969F1CD00CDE4E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B3C97CCD296B9E9800D58657 /* CategoryViewController.swift */,
 				B39BCC702969F19700CDE4E5 /* ToDoListViewController.swift */,
 			);
 			path = Controllers;
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C97CCE296B9E9800D58657 /* CategoryViewController.swift in Sources */,
 				B39BCC712969F19700CDE4E5 /* ToDoListViewController.swift in Sources */,
 				B39BCC6D2969F19700CDE4E5 /* AppDelegate.swift in Sources */,
 				B39BCC772969F19700CDE4E5 /* Todoey_CoreData.xcdatamodeld in Sources */,
